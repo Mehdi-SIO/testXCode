@@ -11,6 +11,7 @@
 		910FFF521C7206E10069CC27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 910FFF511C7206E10069CC27 /* main.m */; };
 		910FFF541C7206E20069CC27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 910FFF531C7206E20069CC27 /* Assets.xcassets */; };
 		910FFF571C7206E20069CC27 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 910FFF551C7206E20069CC27 /* MainMenu.xib */; };
+		9159D9F91C736E87001451F1 /* FBSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 9159D9F81C736E87001451F1 /* FBSession.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,8 @@
 		910FFF531C7206E20069CC27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		910FFF561C7206E20069CC27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		910FFF581C7206E20069CC27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9159D9F71C736E2F001451F1 /* FBSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBSession.h; path = ../../iOS/FBSession.h; sourceTree = "<group>"; };
+		9159D9F81C736E87001451F1 /* FBSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBSession.m; path = ../../iOS/FBSession.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +59,8 @@
 				910FFF4D1C7206E10069CC27 /* AppDelegate.h */,
 				910FFF4E1C7206E10069CC27 /* AppDelegate.m */,
 				910FFF531C7206E20069CC27 /* Assets.xcassets */,
+				9159D9F71C736E2F001451F1 /* FBSession.h */,
+				9159D9F81C736E87001451F1 /* FBSession.m */,
 				910FFF551C7206E20069CC27 /* MainMenu.xib */,
 				910FFF581C7206E20069CC27 /* Info.plist */,
 				910FFF501C7206E10069CC27 /* Supporting Files */,
@@ -142,6 +147,7 @@
 			files = (
 				910FFF521C7206E10069CC27 /* main.m in Sources */,
 				910FFF4F1C7206E10069CC27 /* AppDelegate.m in Sources */,
+				9159D9F91C736E87001451F1 /* FBSession.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +287,7 @@
 				910FFF5D1C7206E20069CC27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
